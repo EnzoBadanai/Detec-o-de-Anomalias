@@ -1,9 +1,0 @@
-Objetivo: 
-Avaliar a eficiência da detecção de ataques no tráfego de rede (CIC-IDS2017) comparando a capacidade de discriminação não-linear de uma DNN contra a baseline linear da Regressão Logística.  
-
-Resultado-Chave:
-Regressão Logística (class_weight='balanced'): Alcançou 97% de Recall em ataques com 75% de Precisão, demonstrando ser uma solução leve, ultra-rápida, mas que gera cerca de 25% de alarmes falsos devido às limitações da fronteira de decisão linear.
-Rede Neural Profunda (DNN): Ao mapear interações não-lineares complexas das 69 métricas de tráfego, elevou a Precisão para ~98-99% mantendo o Recall em ~98-99%, reduzindo drasticamente os Falsos Alarmes no SOC.  
-
-Conclusão: 
-A Regressão Logística funciona como um excelente filtro de primeira linha (perimeter line) de baixíssimo custo computacional, enquanto a DNN atua na classificação refinada de ameaças conhecidas
